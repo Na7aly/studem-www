@@ -10,14 +10,13 @@ const SectionLinks = () => {
           <div className={styles.column}>
             <h3>LINK-URI UTILE</h3>
             <ul className={styles.list}>
-              <li><ScrollLink to="about" smooth={true} duration={500}>Acasa</ScrollLink></li>
+              <li><ScrollLink to="home" smooth={true} duration={500}>Acasa</ScrollLink></li>
               <li><ScrollLink to="about" smooth={true} duration={500}>Despre noi</ScrollLink></li>
               <li><ScrollLink to="domains" smooth={true} duration={500}>Domenii</ScrollLink></li>
               <li><ScrollLink to="team" smooth={true} duration={500}>Echipa</ScrollLink></li>
-              <li><ScrollLink to="citate" smooth={true} duration={500}>Citate STUDEM</ScrollLink></li>
-              <li><ScrollLink to="transparenta" smooth={true} duration={500}>Transparentă</ScrollLink></li>
-              <li><ScrollLink to="finantatori" smooth={true} duration={500}>Finanțatori</ScrollLink></li>
-              <li><ScrollLink to="parteneri" smooth={true} duration={500}>Parteneri</ScrollLink></li>
+              <li><ScrollLink to="testimonial" smooth={true} duration={500}>Citate STUDEM</ScrollLink></li>
+              <li><ScrollLink to="contact" smooth={true} duration={500}>Contact</ScrollLink></li>
+              <li><ScrollLink to="news" smooth={true} duration={500}>News</ScrollLink></li>
             </ul>
           </div>
           <div className={styles.column}>
