@@ -7,9 +7,9 @@ import Footer from './components/Footer/Footer';
 function App() {
   return (
     <Router>
-      <Navbar />
+      
       <Home />
-      <Footer />
+      
     </Router>
   );
 }

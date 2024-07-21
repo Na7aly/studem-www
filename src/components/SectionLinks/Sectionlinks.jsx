@@ -1,7 +1,8 @@
 import React from 'react';
+import { Link as ScrollLink } from 'react-scroll';
 import styles from './SectionLinks.module.css';
 
-const Sectionlinks = () => {
+const SectionLinks = () => {
   return (
     <footer className={styles.footer}>
       <div className={styles.container}>
@@ -9,26 +10,26 @@ const Sectionlinks = () => {
           <div className={styles.column}>
             <h3>LINK-URI UTILE</h3>
             <ul className={styles.list}>
-              <li><a href="/">Acasă</a></li>
-              <li><a href="/despre-noi">Despre noi</a></li>
-              <li><a href="/domenii">Domenii</a></li>
-              <li><a href="/echipa">Echipa</a></li>
-              <li><a href="/citate">Citate STUDEM</a></li>
-              <li><a href="/transparenta">Transparență</a></li>
-              <li><a href="/finantatori">Finanțatori</a></li>
-              <li><a href="/parteneri">Parteneri</a></li>
+              <li><ScrollLink to="about" smooth={true} duration={500}>Acasa</ScrollLink></li>
+              <li><ScrollLink to="about" smooth={true} duration={500}>Despre noi</ScrollLink></li>
+              <li><ScrollLink to="domains" smooth={true} duration={500}>Domenii</ScrollLink></li>
+              <li><ScrollLink to="team" smooth={true} duration={500}>Echipa</ScrollLink></li>
+              <li><ScrollLink to="citate" smooth={true} duration={500}>Citate STUDEM</ScrollLink></li>
+              <li><ScrollLink to="transparenta" smooth={true} duration={500}>Transparentă</ScrollLink></li>
+              <li><ScrollLink to="finantatori" smooth={true} duration={500}>Finanțatori</ScrollLink></li>
+              <li><ScrollLink to="parteneri" smooth={true} duration={500}>Parteneri</ScrollLink></li>
             </ul>
           </div>
           <div className={styles.column}>
             <h3>CONTACTE</h3>
             <ul className={styles.list}>
-              <li>Strada Alexandr Pușkin 19, etajul 3</li>
+              <li>Strada Alexandr Puskin 19, etajul 3</li>
               <li>Moldova</li>
               <li>Bălți</li>
               <li>Telefon: +373 (60) 229996 - Constantin Curca</li>
               <li>Telefon: +373 (79) 971786 - Ioan-Giuliano Ciomschi</li>
-              <li>Email: <a href="mailto:youth.center@studem.md">youth.center@studem.md</a></li>
-              <li>Email: <a href="mailto:studem.balti@gmail.com">studem.balti@gmail.com</a></li>
+              <li>Email: youth.center@studem.md</li>
+              <li>Email: studem.balti@gmail.com</li>
             </ul>
           </div>
           <div className={styles.column}>
@@ -47,4 +48,4 @@ const Sectionlinks = () => {
   );
 };
 
-export default Sectionlinks;
+export default SectionLinks;
