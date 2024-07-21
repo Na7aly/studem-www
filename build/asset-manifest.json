@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/studem-www/static/css/main.4e384742.css",
+    "main.js": "/studem-www/static/js/main.95442289.js",
+    "static/js/453.c771ea58.chunk.js": "/studem-www/static/js/453.c771ea58.chunk.js",
+    "static/media/studem.jpg": "/studem-www/static/media/studem.6fc1495877e6d4ef049a.jpg",
+    "index.html": "/studem-www/index.html",
+    "main.4e384742.css.map": "/studem-www/static/css/main.4e384742.css.map",
+    "main.95442289.js.map": "/studem-www/static/js/main.95442289.js.map",
+    "453.c771ea58.chunk.js.map": "/studem-www/static/js/453.c771ea58.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4e384742.css",
+    "static/js/main.95442289.js"
+  ]
+}
